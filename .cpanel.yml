@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/question/public_html/
+    - export DEPLOYPATH=/home/question/kaam.itcorpinc.com/
     - /bin/cp -R * $DEPLOYPATH
