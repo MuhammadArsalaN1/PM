@@ -1,8 +1,4 @@
-
 deployment:
   tasks:
-    # Path where the subdomain points
     - export DEPLOYPATH=/home/question/kaam.itcorpinc.com/
-    
-    # Copy all files from the repo to the subdomain folder
     - /bin/cp -R ./* $DEPLOYPATH
